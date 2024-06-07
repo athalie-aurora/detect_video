@@ -1,0 +1,13 @@
+version: '3'
+
+# Versi dari Docker Compose file, menentukan format konfigurasi yang digunakan.
+
+services:
+  my_camera_app:
+    # Nama layanan Docker yang akan dibuat.
+
+    image: your_image_name
+    # Nama gambar Docker yang akan digunakan untuk membuat kontainer.
+
+    network_mode: host
+    # Mode jaringan yang digunakan oleh kontainer, dalam hal ini digunakan mode host.
