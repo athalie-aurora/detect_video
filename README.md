@@ -20,8 +20,49 @@ This Python Script implements a motion detection system using OpenCV. It capture
 - Records continuously upon detection, which could lead to large video files. More sophisticated motion detection could be implemented for efficiency.
 - Lacks features like email or cloud storage integration for recordings.
 
-**Usage:**
+## Installation
 
-- Ensure you have OpenCV installed (`pip3 install opencv-python`).
-- Run the script. The live feed will display on your screen.
-- Press 'q' to quit the application.
+Clone the repository or download the script:
+
+```bash
+  git clone https://github.com/athalie-aurora/detect_video.git
+```
+
+Navigate to the project directory:
+
+```bash
+cd detect_video
+```
+
+Activate virtual environment
+
+```bash
+python venv\Scripts\activate
+```
+
+or Create new a virtual environment
+
+```bash
+python -m venv [newname_venv]
+```
+
+Install the required dependencies mentioned in the requirements.txt file
+
+```bash
+pip install -r requirements.txt
+```
+
+## Usage
+
+Run the script using the following command:
+
+```bash
+python security_me.py
+```
+
+```
+The live feed will display on your screen, and recording will start when motion is detected.
+
+Press 'q' to quit the application.
+
+```
