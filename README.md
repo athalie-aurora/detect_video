@@ -34,7 +34,7 @@ Navigate to the project directory:
 cd detect_video
 ```
 
-Activate virtual environment
+Add activate virtual environment [download here](https://drive.google.com/drive/folders/1G8BAuVPCroZdSdd-dLhox69A92oMnFr2?usp=sharing) 
 
 ```bash
 python venv\Scripts\activate
@@ -44,12 +44,6 @@ or Create new a virtual environment
 
 ```bash
 python -m venv [newname_venv]
-```
-
-Install the required dependencies mentioned in the requirements.txt file
-
-```bash
-pip install -r requirements.txt
 ```
 
 ## Usage
